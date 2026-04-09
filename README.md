@@ -45,4 +45,4 @@ Assegure-se de que tenha o **Java 21+** e o **Apache Maven** devidamente instala
 > [!NOTE] 
 > O código original deste teste compõe uma parte acoplada do meu [Portfólio Interativo Web principal](https://github.com/jrcosta/portifolio-web). Foi modularizado via *Git Submodules* para provar independência e ao mesmo tempo integridade no ecossistema final.
 
-✍ Desenvolvido por [Eneri Junior](https://github.com/jrcosta). Engenheiro de Automação de Cargas de Trabalho QA.
+🌐 Encontre-me no GitHub: [@jrcosta](https://github.com/jrcosta)
