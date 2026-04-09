@@ -1,4 +1,4 @@
-# 🌌 Automação de API RestAssured (SWAPI)
+# 🎯 Portfólio de Automação: API RestAssured (SWAPI)
 
 Este projeto é um laboratório prático de automação de testes de Backend validando os contratos e comportamentos da clássica **Star Wars API (SWAPI)**. Construído inteiramente com stack tecnológica atualizada visando robustez estrutural, padronização corporativa e legibilidade utilizando boas práticas ágeis.
 
