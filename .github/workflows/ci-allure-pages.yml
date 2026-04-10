@@ -1,0 +1,56 @@
+name: CI / Testes e Relatório Allure (GitHub Pages)
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  test-and-report:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Permissão necessária para publicar na branch gh-pages
+      pages: write    # Permissões do Github Pages
+      id-token: write
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Java 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Executar testes com Maven
+        run: mvn clean test
+        continue-on-error: true # Continua mesmo se os testes falharem para gerar o relatório
+
+      - name: Obter histórico do Allure (se existir)
+        uses: actions/checkout@v4
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Gerar Allure Report
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: target/allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy para GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history

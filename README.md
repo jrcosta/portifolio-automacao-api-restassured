@@ -37,9 +37,8 @@ Assegure-se de que tenha o **Java 21+** e o **Apache Maven** devidamente instala
    mvn clean test
    ```
 
-2. **Validar Resoluções (Opcional):**
-   *(Este repositório pode ser integrado junto a plugins do Allure Metrics no pom.xml futuramente visando integração ao CI/CD ou GitLab Pages)*.
-
+2. **Visualizar Relatórios (Allure Report):**
+   O projeto conta com *Continuous Integration (CI)* via **GitHub Actions**. Sempre que há alterações no código, os testes rodam automaticamente e o relatório é publicado no **GitHub Pages**, provendo métricas visuais sobre as asserções e documentando se há quebras/divergências nos endpoints da SWAPI.
 ## 🔗 Sobre o Monorepo
 
 > [!NOTE] 
