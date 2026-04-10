@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1370","Deve buscar personagens pelo nome","","Fri Apr 10 14:15:58 UTC 2026","passed","Fri Apr 10 14:15:59 UTC 2026","","tests.TestPeople","tests.TestPeople","shouldSearchPeopleByName"
+"","4294","Deve retornar 404 para id inexistente","","Fri Apr 10 14:15:59 UTC 2026","passed","Fri Apr 10 14:16:03 UTC 2026","","tests.TestPeople","tests.TestPeople","shouldReturn404WhenPersonDoesNotExist"
+"","3464","Deve retornar Luke Skywalker pelo id 1","","Fri Apr 10 14:15:54 UTC 2026","passed","Fri Apr 10 14:15:58 UTC 2026","","tests.TestPeople","tests.TestPeople","shouldReturnLukeSkywalker"
+"","2262","Deve retornar os recursos principais da API","","Fri Apr 10 14:16:03 UTC 2026","passed","Fri Apr 10 14:16:06 UTC 2026","","tests.TestRoot","tests.TestRoot","shouldReturnRootResources"
