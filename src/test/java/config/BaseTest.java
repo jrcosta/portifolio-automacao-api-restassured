@@ -9,7 +9,6 @@ public class BaseTest {
 
     @BeforeAll
     public static void setup() {
-        RestAssured.baseURI = Environment.getBaseUrl();
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
         RestAssured.defaultParser = Parser.JSON;
     }
