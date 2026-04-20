@@ -1,5 +1,12 @@
 # 🎯 Portfólio de Automação: API RestAssured
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![RestAssured](https://img.shields.io/badge/RestAssured-1CB882?style=for-the-badge&logo=json&logoColor=white)
+![JUnit 5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A22?style=for-the-badge&logo=apachemaven&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Allure Report](https://img.shields.io/badge/Allure_Report-ECAA1A?style=for-the-badge&logo=qgis&logoColor=white)
+
 Este projeto é um laboratório prático de automação de testes de Backend validando os contratos e comportamentos das APIs públicas **DummyJSON** e **Restful-Booker**. Construído inteiramente com stack tecnológica atualizada visando robustez estrutural, padronização corporativa e legibilidade utilizando boas práticas ágeis.
 
 ## 🛠️ Stack Tecnológica & Padrões
