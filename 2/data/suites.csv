@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2177","Deve simular a criacao de um produto via POST","","Mon Apr 20 04:49:53 UTC 2026","passed","Mon Apr 20 04:49:55 UTC 2026","","tests.TestDummyJsonProducts","tests.TestDummyJsonProducts","shouldSimulateProductCreation"
+"","419","Nao deve gerar token com credenciais invalidas (Bad Request/Unauthorized)","","Mon Apr 20 04:49:57 UTC 2026","passed","Mon Apr 20 04:49:57 UTC 2026","","tests.TestRestfulBookerAuth","tests.TestRestfulBookerAuth","shouldNotCreateTokenWithInvalidCredentials"
+"","1469","Deve retornar uma lista de produtos","","Mon Apr 20 04:49:55 UTC 2026","passed","Mon Apr 20 04:49:57 UTC 2026","","tests.TestDummyJsonProducts","tests.TestDummyJsonProducts","shouldReturnProductsList"
+"","382","Deve gerar token de autenticacao validando credenciais corretas","","Mon Apr 20 04:49:57 UTC 2026","passed","Mon Apr 20 04:49:58 UTC 2026","","tests.TestRestfulBookerAuth","tests.TestRestfulBookerAuth","shouldCreateTokenWithValidCredentials"
+"","340","Deve retornar 404 para produto inexistente","","Mon Apr 20 04:49:57 UTC 2026","passed","Mon Apr 20 04:49:57 UTC 2026","","tests.TestDummyJsonProducts","tests.TestDummyJsonProducts","shouldReturn404ForNonexistentProduct"
+"","78","Deve retornar o produto específico pelo id 1","","Mon Apr 20 04:49:57 UTC 2026","passed","Mon Apr 20 04:49:57 UTC 2026","","tests.TestDummyJsonProducts","tests.TestDummyJsonProducts","shouldReturnSpecificProductById"
